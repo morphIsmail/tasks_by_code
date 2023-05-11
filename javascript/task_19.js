@@ -9,11 +9,11 @@
 
 #category_series
 */
-let A = [9, 5, 1, 4, 14, 2, 0, 6, 32, 111]
+let numberArray = [9, 5, 1, 4, 14, 2, 0, 6, 32, 111]
 
 let sum = 0
-for (let i = 0; i < A.length; i++) {
-  sum += A[i]
+for (let i = 0; i < numberArray.length; i++) {
+  sum += numberArray[i]
 }
 
 console.log(sum)

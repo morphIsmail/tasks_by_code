@@ -6,7 +6,7 @@
 #category_proc
 */
 function CircleS(r) {
-  return Math.PI * r**2
+  return 3.14 * r**2
 }
 console.log(CircleS(3))
 console.log(CircleS(5))

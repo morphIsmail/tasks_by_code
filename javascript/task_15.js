@@ -8,5 +8,9 @@
 #category_integer
 */
 let K = 25500
-let T = Math.trunc(K/1000)
-console.log(T)
+if(K>0) {
+  let T = Math.trunc(K/1000)
+  console.log(T)
+} else {
+  console.log("Число должно быть больше чем 0")
+}

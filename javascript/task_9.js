@@ -7,7 +7,13 @@
 */
 
 let K =- 5, N = 6
+let result = ''
 
-for (let i=0; i<N; i++) {
-  console.log(K)
+if(N>0) {
+  for (let i=0; i<N; i++) {
+    result += K
+  }
+} else {
+  console.log('Ошибка')
 }
+console.log(result)

@@ -5,12 +5,12 @@
 
 #category_proc
 */
-let numbers = [5,3,1,2,6]
+let numberArray = [5,3,1,2,6]
 
 function PowerA3(a) {
   return a**3
 }
 
-for(let i = 0; i < numbers.length; i++) {
-  console.log(`Число ${numbers[i]} в кубе = ${PowerA3(numbers[i])}`)
+for(let i = 0; i < numberArray.length; i++) {
+  console.log(`Число ${numberArray[i]} в кубе = ${PowerA3(numberArray[i])}`)
 }

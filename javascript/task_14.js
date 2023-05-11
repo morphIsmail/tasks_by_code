@@ -10,4 +10,4 @@
 
 let A = 10
 
-console.log(A % 2 == 0)
+console.log(A % 2 !== 0)

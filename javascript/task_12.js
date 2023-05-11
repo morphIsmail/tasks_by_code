@@ -6,11 +6,15 @@
 #category_for
 */
 
-let A = 5, B = 12, count = 0
+let A = 5, B = 12
+let count = 0
 
-for(let i=A; i<=B; i++) {
-  console.log(i)
-  count++
+if(A<B) {
+  for(let i=A; i<=B; i++) {
+    console.log(i)
+    count++
+  }
+  console.log('Всего чисел: ' + count)
+} else {
+  console.log('Ошибка')
 }
-
-console.log('Всего чисел: ' + count)
