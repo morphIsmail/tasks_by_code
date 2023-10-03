@@ -5,9 +5,9 @@
 
 #category_boolean
 */
-let A = 43
-let B = 59
-let C = 74
+let A = 30
+let B = 27
+let C = 62
 
 /*
 if((A<B && B<C) || (A>B && B>C)) {

@@ -5,7 +5,7 @@
 
 #category_integer
 */
-let a = 79
+let a = 23
 a1 = a % 10
 a2 = Math.trunc(a / 10)
 

@@ -5,6 +5,6 @@
 
 #category_begin
 */
-let a = 5
-let b = 10
+let a = 3
+let b = 9
 console.log((a+b)/2)

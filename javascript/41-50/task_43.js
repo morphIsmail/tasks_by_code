@@ -5,7 +5,7 @@
 
 #category_begin
 */
-let a = 8
-let b = 2
+let a = 1
+let b = 4
 console.log((a*b)**0.5)
 console.log(Math.sqrt(a*b))
